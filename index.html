@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo"><span>WELCOME!</span></a>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+        <button class="Visit-btn">Visit Github</button>
+    </header>
+
+    <section id="about" class="about">
+    <div class="about-container">
+        <img src="profileImage.jpg" alt="Portrait of Michellin Limuty Anak Tokam">
+        <div class="info-box">
+            <div class="text">
+                <h3>Hi, I'm</h3>
+                <h1>Michellin Limuty Anak Tokam</h1>
+                <span>Multimedia Computing Student</span>
+            </div>
+            <div class="btn-group">
+                <a class="btn" href="cv.pdf" download>Download CV</a>
+                <a class="btn" href="#contact">Contact Me</a>
+            </div>
+            <div class="socials">
+                <a href="https://github.com/michellelimuty-bot" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/michellin-limuty-b5242b345" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a href="https://outlook.office.com/mail/deeplink/compose?to=104965@siswa.unimas.my&subject=Hello%20Michellin"
+                    target="_blank" rel="noopener noreferrer" aria-label="Email via Outlook">
+                   <i class="fa-solid fa-envelope"></i>
+</a>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+                </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="education">
+        <h2 class="section-title">Education</h2>
+        <div class="education-info">
+            <div class="grid">
+                <div class="grid-card">
+                    <i class="fa-solid fa-building-columns"></i>
+                    <span>University Malaysia Sarawak (UNIMAS)</span>
+                    <h3>Multimedia Computing</h3>
+                    <p>I am currently pursuing a degree in Multimedia Computing at Faculty of Computer Science and Information Technology.</p>
+                </div>
+                <div class="grid-card">
+                    <i class="fa-solid fa-school"></i>
+                    <span>Sijil Tinggi Pelajaran Malaysia</span>
+                    <h3>SMK Bandar Bintulu</h3>
+                    <p>2021-2024 with CGPA 3.0</p>
+                </div>
+                <div class="grid-card">
+                    <i class="fa-solid fa-user-graduate"></i>
+                    <span>Sijil Pelajaran Malaysia</span>
+                    <h3>SMK Bandar Bintulu</h3>
+                    <p>2020-2022</p>
+                </div>
+                <div class="grid-card">
+                    <i class="fa-solid fa-laptop"></i>
+                    <span>MUET Certificate</span>
+                    <h3>SMK Bandar Bintulu</h3>
+                    <p>2020-2022 with Band 3.5</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="project">
+        <h2 class="section-title">Projects</h2>
+        <div class="project-container">
+            <div class="project-card">
+                <img src="KuchingART.jpg" alt="UI/UX Project">
+                <h3>UI/UX</h3>
+                <p>Creating a ART ticket system from UNIMAS to Kuching area by design it based on figma and UI/UX.</p>
+                <div class="btn-group">
+                    <div class="btn">Live Demo</div>
+                    <div class="btn">Github Repo</div>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="portfolio.png" alt="HTML CSS JAVASCRIPT Project">
+                <h3>HTMML CSS JAVASCRIPT</h3>
+                <p>Create and design the first portfolio using HTML,CSS and JAVASCRIPT</p>
+                <div class="btn-group">
+                    <div class="btn">Live Demo</div>
+                    <div class="btn">Github Repo</div>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="ticketflight.png" alt="C/C++ Project">
+                <h3>C/C++</h3>
+                <p>Creating a flight ticket booking system</p>
+                <div class="btn-group">
+                    <div class="btn">Live Demo</div>
+                    <div class="btn">Github Repo</div>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="MySQL.png" alt="Database Project">
+                <h3>Database Concept and Design</h3>
+                <p>Creating an official website using MySQL</p>
+                <div class="btn-group">
+                    <div class="btn">Live Demo</div>
+                    <div class="btn">Github Repo</div>
+             </div>
+             </div>
+            <div class="project-card">
+                <img src="roundrobin.png" alt="Operating System Project">
+                <h3>Operating System</h3>
+                <p>Round Robin </p>
+                <div class="btn-group">
+                    <div class="btn">Live Demo</div>
+                    <div class="btn">Github Repo</div>  
+        </div>
+    </section>
+            <section id="contact" class="contact-section">
+        <h3>Send me a message</h3>
+
+        <div class="contact-box">
+            <form id="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+                <input type="text" name="name" placeholder="Your name" required>
+                <input type="email" name="email" placeholder="Your email" required>
+                <textarea name="message" rows="4" placeholder="Your message" required></textarea>
+                <button type="submit" class="send-btn" id="send-btn">Send Message</button>
+            </form>
+
+            <p id="form-status" role="status" aria-live="polite"></p>
+        </div>
+    </section>
+
+    <footer>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <p class="copyright">&copy; 2026 All Rights Reserved.</p>
+    </footer>
+     <script>
+const form = document.getElementById("contact-form");
+const status = document.getElementById("form-status");
+const sendBtn = document.getElementById("send-btn");
+
+form.addEventListener("submit", async (e) => {
+    e.preventDefault();
+    sendBtn.disabled = true;
+    sendBtn.textContent = "Sending...";
+
+    try {
+        const response = await fetch(form.action, {
+            method: "POST",
+            body: new FormData(form),
+            headers: { Accept: "application/json" }
+        });
+
+        if (response.ok) {
+            status.textContent = "✅ Message sent! Thank you, I'll get back to you soon.";
+            status.className = "show success";
+            form.reset();
+        } else {
+            throw new Error("Failed");
+        }
+    } catch (err) {
+        status.textContent = "❌ Something went wrong. Please try again.";
+        status.className = "show error";
+    }
+
+    sendBtn.disabled = false;
+    sendBtn.textContent = "Send";
+
+    setTimeout(() => status.classList.remove("show"), 6000);
+});
+</script>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
